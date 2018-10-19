@@ -116,62 +116,61 @@ footer p {
 
 
 #section01 p {
-  margin-left: 500px;
+  margin-left: 55%;
   column-count: 2;
   column-gap: 25px;
   text-align: justify;
 }
 #section01 h1 {
-  margin-left: 500px;
+  margin-right: 25%;
 }
 
 #section02 p {
-  margin-right: 1000px;
+  margin-right: 60%;
   column-count: 2;
   column-gap: 25px;
   text-align: justify;
 }
 #section02 h1 {
-  margin-right: 500px;
+  margin-right: 50%;
   text-align: justify;
 }
 
 #section03 p {
 
-  margin-left: 400px;
-  margin-left: 700px;
+
+  margin-left: 50%;
   column-count: 2;
   column-gap: 25px;
   text-align: justify;
 }
 #section03 h1 {
-  margin-left: 600px;
+  margin-left: 50%;
 
 }
 #section04 p {
-  margin-right: 1000px;
+  margin-right: 65%;
   column-count: 2;
   column-width: 20px;
   column-gap: 25px;
   text-align: justify;
 }
 #section04 h1 {
-  margin-right: 500px;
+  margin-right: 15%;
   margin-left: 25px;
   text-align: justify;
 
 }
 
 #section05 p {
-  margin-left: 700px;
-  margin-right: : 300px;
+  margin-left: 45%;
   column-count: 2;
   column-gap: 25px;
   text-align: justify;
   column-width: 20px;
 }
 #section05 h1 {
-  margin-left: 700px;
+  margin-left: 45%;
 }
 
 /*
