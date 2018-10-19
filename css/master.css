@@ -1,0 +1,191 @@
+/* Ceci est un commentaire en CSS - Les navigateurs ignorent les commentaires.
+De cette manière nous pouvons laisser des messages pour d'autres codeurs et des explications de ce que nous avons fait. */
+
+/* Dans les 4 selectors suivants nous allons travailler sur la navigation de notre page.
+
+Nous découvrons ici la possibilité d'utiliser des selectors composés ex : header ul  Ceci permet, par exemple, de cibler les elements de la liste du header sans affecter ceux du footer.
+ */
+header {
+  background: rgb(0, 0, 0);
+  padding: 12px;
+  position:fixed;
+
+
+}
+
+
+header ul {
+  list-style-type: none;
+
+
+}
+
+header li {
+  display: inline-block ;
+    position:inherit;
+
+align-items: center;
+}
+
+header a {
+  text-decoration:overline;
+  color : #ffffff;
+  padding: 12px;
+  display: block;
+  min-height: 3vh;
+}
+
+/* A noter ici :
+1. L'utilisation d'une class sur la div, nous la ciblons ici dans la CSS au moyen d'un point .
+2. l'utilisation de background image et de background size
+3. une hauteur minimal à la div. (pour comprendre ce qu'est une VH : https://css-tricks.com/the-lengths-of-css/)
+*/
+.hero {
+  background: rgb(161, 198, 158);
+  color : #fff;
+  min-height: 100vh;
+  min-height: 500px;
+  background-image: url("https://www.walterbarthelemi.be/wp-content/uploads/2017/10/IMG_3728-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color : rgb(0, 0, 0);
+  padding: 210px;
+display: flex;
+justify-content:center ;
+align-items: center;
+  background-attachment: fixed;
+
+}
+
+
+/* Sur les sections :
+1. Nous utilisons encore une hauteur minimale pour faciliter la lecture et le rythme vertical de la page.
+2. Nous utilsons des classes pour permettre d'aleterner visuellement les sections.
+*/
+section {
+  min-height: 40vh;
+  padding: 42px;
+}
+
+.odd {
+  background: rgb(255, 255, 255);
+}
+
+
+.even {
+  background: rgb(0, 0, 0);
+
+}
+/* Nous souhaitons que les images soient responsives... c'est à dire n'éxcèdent pas une certaine largeur ET se redimensionnent avec leur parent */
+
+.image-block {
+  max-width: 640px;
+  border: 0px solid #000;
+}
+
+.image-block img {
+  width : 50%;
+display:block;
+padding : 50px ;
+}
+
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style: italic;
+  margin-left: 90px;
+
+}
+
+footer {
+  min-height: 500px;
+  background-image: url("https://www.walterbarthelemi.be/wp-content/uploads/2017/10/IMG_3728-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color : rgb(0, 0, 0);
+  padding: 100px;
+
+
+}
+footer p {
+  background: rgba(255, 255 , 255, 0.5);
+  padding: 20px;
+  margin-left: 700px;
+  margin-top: 200px;
+}
+
+
+#section01 p {
+  margin-left: 500px;
+  column-count: 2;
+  column-gap: 25px;
+  text-align: justify;
+}
+#section01 h1 {
+  margin-left: 500px;
+}
+
+#section02 p {
+  margin-right: 1000px;
+  column-count: 2;
+  column-gap: 25px;
+  text-align: justify;
+}
+#section02 h1 {
+  margin-right: 500px;
+  text-align: justify;
+}
+
+#section03 p {
+
+  margin-left: 400px;
+  margin-left: 700px;
+  column-count: 2;
+  column-gap: 25px;
+  text-align: justify;
+}
+#section03 h1 {
+  margin-left: 600px;
+
+}
+#section04 p {
+  margin-right: 1000px;
+  column-count: 2;
+  column-width: 20px;
+  column-gap: 25px;
+  text-align: justify;
+}
+#section04 h1 {
+  margin-right: 500px;
+  margin-left: 25px;
+  text-align: justify;
+
+}
+
+#section05 p {
+  margin-left: 700px;
+  margin-right: : 300px;
+  column-count: 2;
+  column-gap: 25px;
+  text-align: justify;
+  column-width: 20px;
+}
+#section05 h1 {
+  margin-left: 700px;
+}
+
+/*
+
+// Small devices
+
+// Medium devices (landscape phones, 576px and up)
+@media (min-width: 640px) { ... }
+
+// Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// Extra large devices
+
+@media (min-width: 1440px) { ... }
+
+*/
